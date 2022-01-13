@@ -70,33 +70,33 @@ void ShowExperimentResultRand(randomize_function f)
 
 int main() {
 
-//    set_num_threads(1);
-//
-//    printf("Integrate_mutex_cpp\n");
-//    ShowExperimentResult(integrate_cpp_mtx);
-//
-//    printf("Integrate_partial_sum\n");
-//    ShowExperimentResult(integrate_partial_sum);
-//
-//    printf("Integrate_reduction_cpp\n");
-//    ShowExperimentResult(integrate_cpp_reduction);
-//
-//    printf("Integrate_reduction_range_cpp\n");
-//    ShowExperimentResult(integrate_range_reduction);
-//
-//    printf("Integrate_align_omp\n");
-//    ShowExperimentResult(integrate_align_omp);
-//
-//    printf("Integrate_crit_omp\n");
-//    ShowExperimentResult(integrate_crit);
-//
-//    printf("Integrate_false_sharing_omp\n");
-//    ShowExperimentResult(integrate_false_sharing);
-//
-//    printf("Integrate_reduction_omp\n");
-//    ShowExperimentResult(integrate_reduction);
+   set_num_threads(1);
 
-    ShowExperimentResultRand(RandomizeArrayShared);
+   printf("Integrate_mutex_cpp\n");
+   ShowExperimentResult(integrate_cpp_mtx);
+
+   printf("Integrate_partial_sum\n");
+   ShowExperimentResult(integrate_partial_sum);
+
+   printf("Integrate_reduction_cpp\n");
+   ShowExperimentResult(integrate_cpp_reduction);
+
+   printf("Integrate_reduction_range_cpp\n");
+   ShowExperimentResult(integrate_range_reduction);
+
+   printf("Integrate_align_omp\n");
+   ShowExperimentResult(integrate_align_omp);
+
+   printf("Integrate_crit_omp\n");
+   ShowExperimentResult(integrate_crit);
+
+   printf("Integrate_false_sharing_omp\n");
+   ShowExperimentResult(integrate_false_sharing);
+
+   printf("Integrate_reduction_omp\n");
+   ShowExperimentResult(integrate_reduction);
+
+   // ShowExperimentResultRand(RandomizeArrayShared);
 
     return 0;
 }
