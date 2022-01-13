@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/CLionProjects/parallel_final/src/integrate_cpp.cpp
+types.h
+/Users/apple/CLionProjects/parallel_final/src/types.h
+
+/Users/apple/CLionProjects/parallel_final/src/types.h
+iostream
+-
+omp.h
+-
+vector
+-
+thread
+-
+cstdlib
+-
+
+/usr/local/include/omp.h
+stdlib.h
+-
+stdint.h
+-
+
